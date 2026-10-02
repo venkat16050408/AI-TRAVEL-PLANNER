@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+*.env
+!.env.example
+!frontend/.env.example
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+!.env.example
